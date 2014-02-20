@@ -25,7 +25,7 @@ Installation
 1. Download and extract the contents of the zip. Copy the /resstoolbox folder to your Craft plugin folder. 
 2. Enable the RESS Toolbox plugin in Craft (Settings > Plugins).
 3. Click on the RESS Toolbox plugin to configure the plugin settings, or configure it via the general config file (see "Configuration" below).
-4. Add the RESS cookie to the beginning of your pages <head> (see "Example Usage" below). 
+4. Add the RESS cookie to the beginning of your pages head (see "Example Usage" below). 
 5. You're ready to RESS.
 
 
@@ -47,7 +47,7 @@ Turning on debug mode makes RESS Toolbox use the fallback width and density inst
 
 Example Usage
 ---
-First thing you need to do is add the RESS cookie to your pages <head>:
+First thing you need to do is add the RESS cookie to your pages head:
 
 ####Add cookie
 
@@ -57,7 +57,7 @@ First thing you need to do is add the RESS cookie to your pages <head>:
 
 This outputs a script tag that tests for cookie support, and sets a cookie with the users device width/height and pixel density. 
 The first time the cookie is created, the page is reloaded so Craft can return the most optimal version of the page to the user.
-It's recommended to put the cookie at the top of your <head> to minimize the amount of data the browser requests on the first request.
+It's recommended to put the cookie at the top of your head to minimize the amount of data the browser requests on the first request.
 
 You now have access to the following template variables:
 
